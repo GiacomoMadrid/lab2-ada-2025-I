@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package madridruizsumamaxima;
+import controlador.ControladorPrincipal;
 
 /**
  *
@@ -14,7 +15,10 @@ public class MadridRuizSumaMaxima {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        int[] secuencia = {-2, 11, -4, 13, -5, 9, -3, 2, -8, 4};
+        
+        ControladorPrincipal controlador = new ControladorPrincipal(secuencia);
+        controlador.procesar();
     }
     
 }
